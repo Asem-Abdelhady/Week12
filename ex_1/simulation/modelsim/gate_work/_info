@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/CA labs/Week 12/ex_1/simulation/modelsim
+vadd
+Z1 !s110 1605798771
+!i10b 1
+!s100 IGI64EKZIKX;V7JN`:T_a1
+IcdBI0U32i`=^5GkSb6A[`3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605798442
+8G:/CA labs/Week 12/ex_1/add.v
+FG:/CA labs/Week 12/ex_1/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1605798771.000000
+!s107 G:/CA labs/Week 12/ex_1/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/CA labs/Week 12/ex_1|G:/CA labs/Week 12/ex_1/add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+G:/CA labs/Week 12/ex_1}
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 VoYSV9<m0GNYOfNYR=OXG1
+IhEC7P8L`0^VlEh6A[F1Lm0
+R2
+R0
+w1605798597
+8G:/CA labs/Week 12/ex_1/alu.v
+FG:/CA labs/Week 12/ex_1/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/CA labs/Week 12/ex_1/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/CA labs/Week 12/ex_1|G:/CA labs/Week 12/ex_1/alu.v|
+!i113 1
+R5
+R6
+R7
+valu_testbench
+R1
+!i10b 1
+!s100 n4_RhCEANXGf_kF9dU5lN1
+I8^6<IL2A05eAVgjM;A:X`0
+R2
+R0
+w1605798520
+8G:/CA labs/Week 12/ex_1/alu_testbench.v
+FG:/CA labs/Week 12/ex_1/alu_testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/CA labs/Week 12/ex_1/alu_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/CA labs/Week 12/ex_1|G:/CA labs/Week 12/ex_1/alu_testbench.v|
+!i113 1
+R5
+R6
+R7
+vhard_block
+R1
+!i10b 1
+!s100 kMl54LC0[3>IDAk;XYBEk1
+I4OE9b>Yi<XK6L541EBad62
+R2
+R0
+w1605798765
+8alu.vo
+Falu.vo
+L0 5157
+R3
+r1
+!s85 0
+31
+!s108 1605798770.000000
+!s107 alu.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|alu.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R7
+vmux
+R1
+!i10b 1
+!s100 ZI8RWXEPNb_XUBAYSO]4_3
+IimVb8k<dkkJ]N8YGdPeGV0
+R2
+R0
+w1605798463
+8G:/CA labs/Week 12/ex_1/mux.v
+FG:/CA labs/Week 12/ex_1/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/CA labs/Week 12/ex_1/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/CA labs/Week 12/ex_1|G:/CA labs/Week 12/ex_1/mux.v|
+!i113 1
+R5
+R6
+R7
+vsrl
+R1
+!i10b 1
+!s100 oDj<;`P3A<i06nl4bZ6cc3
+I?PcWI>BiIiH24:<JTGhm33
+R2
+R0
+w1605798484
+8G:/CA labs/Week 12/ex_1/srl.v
+FG:/CA labs/Week 12/ex_1/srl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/CA labs/Week 12/ex_1/srl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/CA labs/Week 12/ex_1|G:/CA labs/Week 12/ex_1/srl.v|
+!i113 1
+R5
+R6
+R7
+vsub
+R1
+!i10b 1
+!s100 =R1d5CD]cfNl[1XCkQA[b1
+IhFY^ja_:2adRXT1blP^Xc3
+R2
+R0
+w1605798497
+8G:/CA labs/Week 12/ex_1/sub.v
+FG:/CA labs/Week 12/ex_1/sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/CA labs/Week 12/ex_1/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/CA labs/Week 12/ex_1|G:/CA labs/Week 12/ex_1/sub.v|
+!i113 1
+R5
+R6
+R7

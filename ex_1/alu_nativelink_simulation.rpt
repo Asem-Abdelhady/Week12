@@ -1,0 +1,170 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  c:/intelfpga_lite/18.1/quartus/bin64/
+Quartus sim root      :  c:/intelfpga_lite/18.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  alu.vo
+Sim SDF file          :  alu__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/intelfpga_lite/18.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File alu_run_msim_gate_verilog.do already exists - backing up current file as alu_run_msim_gate_verilog.do.bak
+Probing transcript
+ModelSim-Altera Info: # Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # do alu_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {alu.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:50 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." alu.vo 
+ModelSim-Altera Info: # -- Compiling module alu
+ModelSim-Altera Info: # -- Compiling module hard_block
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	alu
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:01
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+G:/CA\ labs/Week\ 12/ex_1 {G:/CA labs/Week 12/ex_1/sub.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/CA labs/Week 12/ex_1" G:/CA labs/Week 12/ex_1/sub.v 
+ModelSim-Altera Info: # -- Compiling module sub
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	sub
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+G:/CA\ labs/Week\ 12/ex_1 {G:/CA labs/Week 12/ex_1/srl.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/CA labs/Week 12/ex_1" G:/CA labs/Week 12/ex_1/srl.v 
+ModelSim-Altera Info: # -- Compiling module srl
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	srl
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+G:/CA\ labs/Week\ 12/ex_1 {G:/CA labs/Week 12/ex_1/mux.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/CA labs/Week 12/ex_1" G:/CA labs/Week 12/ex_1/mux.v 
+ModelSim-Altera Info: # -- Compiling module mux
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mux
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+G:/CA\ labs/Week\ 12/ex_1 {G:/CA labs/Week 12/ex_1/alu_testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/CA labs/Week 12/ex_1" G:/CA labs/Week 12/ex_1/alu_testbench.v 
+ModelSim-Altera Info: # -- Compiling module alu_testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	alu_testbench
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+G:/CA\ labs/Week\ 12/ex_1 {G:/CA labs/Week 12/ex_1/alu.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/CA labs/Week 12/ex_1" G:/CA labs/Week 12/ex_1/alu.v 
+ModelSim-Altera Info: # -- Compiling module alu
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	alu
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+G:/CA\ labs/Week\ 12/ex_1 {G:/CA labs/Week 12/ex_1/add.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/CA labs/Week 12/ex_1" G:/CA labs/Week 12/ex_1/add.v 
+ModelSim-Altera Info: # -- Compiling module add
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	add
+ModelSim-Altera Info: # End time: 17:12:51 on Nov 19,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  alu_testbench
+ModelSim-Altera Info: # vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" alu_testbench 
+ModelSim-Altera Info: # Start time: 17:12:51 on Nov 19,2020
+ModelSim-Altera Info: # Loading work.alu_testbench
+ModelSim-Altera Info: # Loading work.alu
+ModelSim-Altera Info: # Loading work.add
+ModelSim-Altera Info: # Loading work.sub
+ModelSim-Altera Info: # Loading work.srl
+ModelSim-Altera Info: # Loading work.mux
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) G:/CA labs/Week 12/ex_1/alu_testbench.v(11): [PCDPC] - Port size (5) does not match connection size (6) for port 'funct'. The port definition is at: G:/CA labs/Week 12/ex_1/alu.v(5).
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /alu_testbench/alu File: G:/CA labs/Week 12/ex_1/alu.v
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) G:/CA labs/Week 12/ex_1/alu.v(13): [PCDPC] - Port size (7) does not match connection size (5) for port 'd'. The port definition is at: G:/CA labs/Week 12/ex_1/mux.v(3).
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /alu_testbench/alu/mux File: G:/CA labs/Week 12/ex_1/mux.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # do G:/CA labs/Week 12/ex_1/Tcl_script1.tcl
+ModelSim-Altera Error: # ** Error: Cannot open macro file: G:/CA
+ModelSim-Altera Info: # Error in macro ./alu_run_msim_gate_verilog.do line 19
+ModelSim-Altera Info: # Cannot open macro file: G:/CA
+ModelSim-Altera Info: #     while executing
+ModelSim-Altera Info: # "do G:/CA labs/Week 12/ex_1/Tcl_script1.tcl"
+ModelSim-Altera Info: run -all
+ModelSim-Altera Info: # rs = 00000000000000000000000000000000 rt = 00000000000000000000000000000001 shamt = xxxxx funct = 100000 rd = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ModelSim-Altera Info: # rs = 00000000000000000000000000000111 rt = 00000000000000000000000000000011 shamt = xxxxx funct = 100010 rd = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ModelSim-Altera Info: # rs = 00000000000000000000000000000111 rt = 00000000000000000000000000001000 shamt = 00010 funct = 000010 rd = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ModelSim-Altera Info: # rs = 00000000000000000000000000001011 rt = 00000000000000000000000000000001 shamt = 00010 funct = 100000 rd = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ModelSim-Altera Info: # rs = 00000000000000000000000000000000 rt = 00000000000000000000000000000001 shamt = 00010 funct = 100010 rd = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ModelSim-Altera Info: # rs = 00000000000000000000000000000000 rt = 00000000000000000000000000001101 shamt = 00001 funct = 000010 rd = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ModelSim-Altera Info: # End time: 17:32:04 on Nov 19,2020, Elapsed time: 0:19:13
+ModelSim-Altera Info: # Errors: 3, Warnings: 2
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+                set savedCode $::errorCode
+                set savedInfo $::errorInfo
+                error $result $..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+            set status 1
+            if [ info exists ::errorCode ] {
+                set save..."
+    (procedure "run_sim" line 74)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+            set savedCode $::errorCode
+            set savedInfo $::errorInfo
+            error "$result" $savedInfo ..."
+    (procedure "run_eda_simulation_tool" line 334)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"
